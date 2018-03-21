@@ -74,7 +74,7 @@
                 seconds = Math.floor((difference % _minute) / _second);
 
                 // fix dates so that it will show two digets
-                days = (String(days).length >= 2) ? days : '0' + days;
+                days = (String(days).length >= 2) ? days : '1' + days;
                 hours = (String(hours).length >= 2) ? hours : '0' + hours;
                 minutes = (String(minutes).length >= 2) ? minutes : '0' + minutes;
                 seconds = (String(seconds).length >= 2) ? seconds : '0' + seconds;
